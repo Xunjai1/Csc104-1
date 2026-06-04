@@ -1,0 +1,155 @@
+/********  
+     Start Global Styles 
+********/
+
+/* Applies space-themed font and background to the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  /* Background color of entire webpage */
+  /* change white to a different color */
+  background-color: black; 
+  /* Default text color of entire webpage */
+  /* change black to a different color */
+  color: white;
+}
+
+/* Import a sci-fi style font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+/********  
+     End Global Styles 
+********/
+
+/********  
+     Start Heading Styles 
+********/
+header {
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  box-shadow: 0 0 20px #0ff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;  
+  /* Text color of header */
+  /* change black to a different color */
+  color: white;  
+  /* Shadow around header text */
+  /* change black to a different color */
+  /* change 15px to a different number */
+  text-shadow: 0 0 15px black;
+}
+
+header div {
+  margin: 10px 0 0;
+  /* Text color of divs in the header */
+  /* change black to a different color */
+  color: black;
+  font-style: italic;
+}
+/********  
+     End Heading Styles 
+********/
+
+/********  
+     Start Navigation Styles 
+********/
+nav {
+  /* Background color of navigation menu */
+  /* change black to a different color */
+  background-color: black;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  /* Text color of the links in the navigation menu */
+  /* change white to a different color */  
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 6px #0ff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  /* Hover text color of the links in the navigation menu */
+  /* change green to a different color */  
+  color: blue;
+}
+/********  
+     End Navigation Styles 
+********/
+
+/********  
+     Start Main Styles 
+********/
+main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+  /* Background color of the sections */
+  /* Change the first 3 numbers of the background - Red / Green / Blue */
+  /* Change the 4th number to alter opacity - the lower the number, the higher the transparency */
+  background-color: rgba(255, 99, 71, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #222;
+}
+
+section h2 {
+  /* Text color of the titles in the sections */
+  /* change white to a different color */
+  color: white;
+  /* Shadow around title text */
+  /* change white to a different color */
+  /* change 15px to a different number */
+  text-shadow: 0 0 15px white;
+}
+
+section p {
+  /* Text color of the text in the sections */
+  /* change white to a different color */
+  color: white;
+}
+/********  
+     End Main Styles 
+********/
+
+/********  
+     Start Footer Styles 
+********/
+footer {
+  /* Background color of the footer */
+  /* change black to a different color */
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  /* Text color of the text in the footer */
+  /* change white to a different color */
+  color: white;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+  box-shadow: 0 -5px 20px #111;
+}
+/********  
+     Start Footer Styles 
+********/
